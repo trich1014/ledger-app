@@ -1,0 +1,12 @@
+{
+  "name": "Ledger",
+  "short_name": "Ledger",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EEF0E6",
+  "theme_color": "#16211B",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

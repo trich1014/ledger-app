@@ -1,0 +1,25 @@
+.DS_Store
+*.zip
+
+# Terraform
+account/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+account/main.tf.bak
+
+# Node
+node_modules/
+package-lock.json.bak
+npm-debug.log*
+
+# Azure Functions local secrets
+account/local.settings.json
+
+# Build output
+accounthp/dist/
+accounthp/vite.config.js.timestamp-*.mjs
+
+# Editor
+.vscode/
+.idea/
